@@ -1,3 +1,69 @@
+/* Style for the body on all pages */
 body{
-	background-color:blue;
+	background-color:#111476;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
+
+/* Creating uniform fonts across all the pages */
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 70;
+	color: white;
+	text-align: center;
+}
+p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+}
+li{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+}
+a{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+}
+
+/* ID section */
+#container{
+	min-height: 100%
+	position: relative;
+}
+#header{
+	padding: 10px;
+	background-color: black;
+	top: 0;
+}
+#menubar{
+	padding: 10px;
+	background-color: black;
+}
+#navbar{
+	background: black;
+	display: none;
+}
+#body{
+	padding: 1rem;
+	padding-bottom: 3rem;
+}
+#footer{
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	padding = 10px;
+}
+
+/* Class Section */
+.menu{
+}
+.menu a:link{
+	color:white;
+	text-decoration: none;
+}
+.menu a:visited{
+	color:white;
+	text-decoration: none;
+}
+
