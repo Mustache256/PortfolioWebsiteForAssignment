@@ -13,6 +13,12 @@ h1{
 	color: white;
 	text-align: center;
 }
+h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40;
+	color: white;
+	text-align: center;
+}
 p{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: white;
@@ -53,6 +59,45 @@ a{
 	width: 100%;
 	background-color: black;
 	padding = 10px;
+}
+#footerBox1{
+	width: 50%;
+	text-align: center-left;
+	float: left;
+	background-color: black;
+}
+#footerBox2{
+	width: 50%;
+	text-align: right;
+	float: right;
+	background-color: black;
+}
+#nav1{
+	float: left;
+	width: 25%;
+	background-color: black;
+	content: center; 
+}
+#nav2{
+	float: left;
+	width: 25%;
+	background-color: black;
+	content: center; 
+}
+#nav3{
+	float: left;
+	width: 25%;
+	background-color: black;
+	content: center; 
+}
+#nav4{
+	float: left;
+	width: 25%;
+	background-color: black;
+	content: center; 
+}
+#hidden1{
+	display: none;
 }
 
 /* Class Section */

@@ -7,26 +7,32 @@
   
 	<body>
     <div id="container">
+		
 			<!-- Header Section -->
 			<div id="header">
-				<h1>Daniel Holmes | Portfolio Website</h1>
+				<h1>Dan Holmes | Portfolio Website</h1>
 				<h2>Home Page</h2>
+				
+			<!-- Display Menu Button -->
 				<div class="Menu">
 					<a onclick="check()" href="#"><img src="images/menubutton.png"></a>
-				</div>
-			</div>
-			<!-- <div id="menubar">
-				<div class="Menu">
-					<a onclick="check()" href="#">| Menu |</a>
 				</div>
 			</div>
 			
 			<!--Navigation Bar-->
 			<div id="navbar">
-				<a href="">Home</a>
-				<a href="">Projects</a>
-				<a href="">Interests</a>
-				<a href="">Contact</a>
+				<div id="nav1">
+					<a href=""><img src="images/homebutton.png" onmouseover="MouseRollover1(this)" onmouseout="MouseOut1(this)"></a>
+				</div>
+				<div id="nav2">
+					<a href=""><img src="images/projectsbutton.png" onmouseover="MouseRollover2(this)" onmouseout="MouseOut2(this)"></a>
+				</div>
+				<div id="nav3">
+					<a href=""><img src="images/interestsbutton.png" onmouseover="MouseRollover3(this)" onmouseout="MouseOut3(this)"></a>
+				</div>
+				<div id="nav4">
+					<a href=""><img src="images/contactbutton.png" onmouseover="MouseRollover4(this)" onmouseout="MouseOut4(this)"></a>
+				</div>
 			</div>
 
 			<!-- Page content section -->
@@ -90,10 +96,24 @@
 		
 			<!-- Footer Section -->
 			<div id="footer">
-				<p>Contact Information: </p>
-				<p> Email: daniel2561@hotmail.co.uk </p>
-				<p> Mobile Number: 07504883703 </p>
-				<p> GitHub Account: Mustache256 </p>
+			
+	    <!-- Defining Footer Divs For Formatting -->
+					<div id="footerBox1">
+						<pfl>
+							<p>Contact Information: </p>
+							<p> Email: daniel2561@hotmail.co.uk </p>
+							<p> Mobile Number: 07504883703 </p>
+							<p> GitHub Account: Mustache256 </p>
+						</pfl>
+					</div>
+					<div id="footerBox2">
+						<p>Navigation Links: </p>
+						<p><a href="">Projects</a></p>
+						<p><a href="">Interests</a></p>
+						<p><a href="">Contact</a></p>
+					</div>
+					<div id="clear">
+					</div>
 			</div>
 		</div>
   </body>
