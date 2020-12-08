@@ -31,6 +31,12 @@ a{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: white;
 }
+table, th{
+	border: 1px solid #9DEA4F;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	Margin: 0 auto;
+}
 
 /* ID section */
 #container{
@@ -53,6 +59,8 @@ a{
 #body{
 	padding: 1rem;
 	padding-bottom: 3rem;
+	display: flex;
+	justify-content: space-evenly;
 }
 #footer{
 	bottom: 0;
@@ -65,12 +73,16 @@ a{
 	text-align: center-left;
 	float: left;
 	background-color: black;
+	margin: 0px;
+	padding: 0px;
 }
 #footerBox2{
 	width: 50%;
 	text-align: right;
 	float: right;
 	background-color: black;
+	margin: 0px;
+	padding: 0px;
 }
 #nav1{
 	float: left;
