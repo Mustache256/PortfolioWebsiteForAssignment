@@ -19,6 +19,10 @@ h2{
 	color: white;
 	text-align: center;
 }
+h3{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+}
 p{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: white;
@@ -59,13 +63,27 @@ table, th{
 #body{
 	padding: 1rem;
 	padding-bottom: 3rem;
-	display: flex;
-	justify-content: space-evenly;
+}
+#bodyBox1{
+	width: 50%;
+	text-align: center;
+	float: left;
+	background-color: #111476;
+	margin: 0px;
+	padding: 0px;
+}
+#bodyBox2{
+	width: 50%;
+	text-align: center;
+	float: right;
+	background-color: #111476;
+	margin: 0px;
+	padding: 0px;
 }
 #footer{
 	bottom: 0;
 	width: 100%;
-	background-color: black;
+	background-color: #111476;
 	padding = 10px;
 }
 #footerBox1{
