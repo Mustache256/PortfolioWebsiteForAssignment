@@ -20,9 +20,10 @@
 			</div>
 			
 			<!--Navigation Bar-->
+			<!-- Uses images in place of text for navigation links in order to provide greater user feedback through image rollovers -->
 			<div id="navbar">
 				<div id="nav1">
-					<a href="index.html"><img src="images/homebutton.png" onmouseover="MouseRollover1(this)" onmouseout="MouseOut1(this)"></a>
+					<a href="index.html"><img src="images/homebutton.png" onmouseover="MouseRollover1(this)" onmouseout="MouseOut1(this)"></a> <!-- Each image calls individual js function in the external file to make the image rollover work -->
 				</div>
 				<div id="nav2">
 					<a href="projects.html"><img src="images/projectsbutton.png" onmouseover="MouseRollover2(this)" onmouseout="MouseOut2(this)"></a>
@@ -37,6 +38,7 @@
 
 			<!-- Page content section -->
 			<div id="body" style="text-align: center;">
+			<!-- using 2 seperate divs to split the content within the main body of the page into 2 seperate sections on the left and right of the page that are in line with each other -->
 				<div id="bodyBox1">
 					<h2>Contact Form:</h2>
 					<form method="post" name="form1" id="form1" onSubmit="MM_validateForm('textfield','','R','textfield2','','R','textfield3','','RisEmail','textarea','','R');return document.MM_returnValue">
@@ -87,7 +89,7 @@
 			<!-- Footer Section -->
 			<div id="footer" style="position:absolute; bottom:0;">
 				<p style="text-align: center">Copyright 2020© | Daniel Holmes</p>
-	    <!-- Defining Footer Divs For Formatting -->
+	    <!-- Defining Footer Divs For Formatting, allowing for content to be both on the left and right of the footer whilst being in line with each other -->
 				<div id="footerBox1">
 					<p>Contact Information: </p>
 					<p> Email: daniel2561@hotmail.co.uk </p>
@@ -95,6 +97,7 @@
 					<p> GitHub Account: Mustache256 </p>
 				</div>
 				<div id="footerBox2">
+					<!-- Additional navigation links for use in case of issue with interactive drop down navigation menu in header -->
 					<p>Navigation Links: </p>
 					<p><a href="projects.html">Projects</a></p>
 					<p><a href="interests">Interests</a></p>
