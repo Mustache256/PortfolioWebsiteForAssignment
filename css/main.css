@@ -1,6 +1,6 @@
 /* Style for the body on all pages */
 body{
-	background-color:#111476;
+	background-color: #111476;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -38,31 +38,56 @@ a{
 }
 /*Creating consistent table formatting*/
 table{
-	border: 1px solid #9DEA4F;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: white;
 	Margin: 0 auto;
 	width: 100%;
 }
 tr{
-	border: 1px solid #9DEA4F;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: white;
 	Margin: 0 auto;
 }
 th{
-	border: 1px solid #9DEA4F;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 30;
 	color: white;
 	Margin: 0 auto;
 }
 td{
-	border: 1px solid #9DEA4F;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 20;
 	color: white;
 	Margin: 0 auto;
+}
+input[type=text], textarea{
+	width: 100%;
+	padding: 1rem;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	resize: vertical;
+}
+label{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-align: left;
+	font-size: 20;
+}
+input[type=submit]{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	background-color: #111476;
+	padding: 1rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color:white;
+	color:black;
 }
 
 /* ID section. Listed to represent the order in with the elements are places on the pages from top to bottom*/
@@ -122,11 +147,31 @@ td{
 	margin: 0px;
 	padding: 0px;
 }
+#contactForm{
+	text-align: left;
+	border-radius: 5px;
+	background-color: black;
+	padding: 1rem;
+}
 #bodyBox2{
 	width: 50%;
 	text-align: center;
 	float: right;
 	background-color: #111476;
+	margin: 0px;
+	padding: 0px;
+}
+#td1{
+	border-top: 5px solid black; 
+	border-right: 5px solid black; 
+	border-bottom: 5px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+#td2{
+	border-top: 5px solid black; 
+	border-left: 5px solid black; 
+	border-bottom: 5px solid black;
 	margin: 0px;
 	padding: 0px;
 }
@@ -138,7 +183,7 @@ td{
 }
 #footerBox1{
 	width: 50%;
-	text-align: center-left;
+	text-align: center;
 	float: left;
 	background-color: black;
 	margin: 0px;
@@ -146,7 +191,7 @@ td{
 }
 #footerBox2{
 	width: 50%;
-	text-align: right;
+	text-align: center;
 	float: right;
 	background-color: black;
 	margin: 0px;

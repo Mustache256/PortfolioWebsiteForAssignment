@@ -1,11 +1,14 @@
 <html>
   <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/main.css">
 		<script src="JavaScript/jsmain.js"></script>
     <title>Portfolio Website Projects Page</title>
   </head>
   
 	<body>
+		<!-- Placing main content in container div to help with formatting of footer if absolute positioning is needed -->
     <div id="container">
 		
 			<!-- Header Section -->
@@ -38,12 +41,29 @@
 
 			<!-- Page content section -->
 			<div id="body">
-			<!-- using 2 seperate divs to split the content within the main body of the page into 2 seperate sections on the left and right of the page that are in line with each other -->
-				<div id="bodyBox1">
-					
-				</div>
-				<div id="bodyBox2">
-					
+				<div class="window">
+					<span id="slideMC"></span>
+					<span id="slideTF"></span>
+					<span id="slideHD"></span>
+					<span id="slideHK"></span>
+					<span id="slideHL"></span>
+					<span id="slideMH"></span>
+					<div class="imageContainer">
+						<img src="" class="slide">
+						<img src="" class="slide">
+						<img src="" class="slide">
+						<img src="" class="slide">
+						<img src="" class="slide">
+						<img src="" class="slide">
+					</div>
+					<div class="buttonContainer">
+						<a href="#slideMC" class="sliderButton">
+						<a href="#slideTF" class="sliderButton">
+						<a href="#slideHD" class="sliderButton">
+						<a href="#slideHK" class="sliderButton">
+						<a href="#slideHL" class="sliderButton">
+						<a href="#slideMH" class="sliderButton">
+					</div>
 				</div>
 			</div>
 		
@@ -52,17 +72,11 @@
 				<p style="text-align: center">Copyright 2020© | Daniel Holmes</p>
 	    <!-- Defining Footer Divs For Formatting, allowing for content to be both on the left and right of the footer whilst being in line with each other -->
 				<div id="footerBox1">
-					<p>Contact Information: </p>
-					<p> Email: daniel2561@hotmail.co.uk </p>
-					<p> Mobile Number: 07504883703 </p>
-					<p> GitHub Account: Mustache256 </p>
+					<p><b>Contact Information:</b> Email: daniel2561@hotmail.co.uk <b>|</b> Mobile Number: 07504883703 <b>|</b> GitHub Account: Mustache256 </p>
 				</div>
 				<div id="footerBox2">
 					<!-- Additional navigation links for use in case of issue with interactive drop down navigation menu in header -->
-					<p>Navigation Links: </p>
-					<p><a href="projects.html">Projects</a></p>
-					<p><a href="index.html">Home Page</a></p>
-					<p><a href="contact.html">Contact</a></p>
+					<p><b>Navigation Links:</b> <a href="projects.html">Projects</a> <b>|</b> <a href="index.html">Home Page</a> <b>|</b> <a href="contact.html">Contact</a></p>
 				</div>
 				<div id="clear">
 				</div>

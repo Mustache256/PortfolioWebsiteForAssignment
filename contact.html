@@ -41,27 +41,19 @@
 			<!-- using 2 seperate divs to split the content within the main body of the page into 2 seperate sections on the left and right of the page that are in line with each other -->
 				<div id="bodyBox1">
 					<h2>Contact Form:</h2>
-					<form method="post" name="form1" id="form1" onSubmit="MM_validateForm('textfield','','R','textfield2','','R','textfield3','','RisEmail','textarea','','R');return document.MM_returnValue">
-						<p> 
-							<label for="Firstname">Firstname:  </label>
-							<input type="text" name="Firstname" id="textfield">
-						</p>
-						<p>
+					<div id="contactForm">	
+						<form method="post" name="form1" id="form1" onSubmit="MM_validateForm('textfield','','R','textfield2','','R','textfield3','','RisEmail','textarea','','R');return document.MM_returnValue">
+							<label for="Firstname">Firstname:</label>
+							<input type="text" name="Firstname" id="textfield">					
 							<label for="Surname">Surname:</label>
 							<input type="text" name="Surname" id="textfield2">		
-						</p>
-						<p>
 							<label for="E-Mail">E-Mail:</label>
 							<input type="text" name="E-Mail" id="textfield3">
-						</p>
-						<p>
 							<label for="Enquiry">Your Enquiry:</label>
 							<textarea name="Enquiry" cols="50" rows="10" id="textarea"></textarea>
-						</p>
-						<p>
 							<input type="submit" name="submit" id="submit" value="Submit">
-						</p>
-					</form>
+						</form>
+					</div>
 					<p>Please use this contact form for any questions you may have.</p>
 					<p>Alternatively, you can contact me directly via any of the contact details listed on the right.</p>
 				</div>
@@ -91,17 +83,11 @@
 				<p style="text-align: center">Copyright 2020© | Daniel Holmes</p>
 	    <!-- Defining Footer Divs For Formatting, allowing for content to be both on the left and right of the footer whilst being in line with each other -->
 				<div id="footerBox1">
-					<p>Contact Information: </p>
-					<p> Email: daniel2561@hotmail.co.uk </p>
-					<p> Mobile Number: 07504883703 </p>
-					<p> GitHub Account: Mustache256 </p>
+					<p><b>Contact Information:</b> Email: daniel2561@hotmail.co.uk <b>|</b> Mobile Number: 07504883703 <b>|</b> GitHub Account: Mustache256 </p>
 				</div>
 				<div id="footerBox2">
 					<!-- Additional navigation links for use in case of issue with interactive drop down navigation menu in header -->
-					<p>Navigation Links: </p>
-					<p><a href="projects.html">Projects</a></p>
-					<p><a href="interests">Interests</a></p>
-					<p><a href="index.html">Home Page</a></p>
+					<p><b>Navigation Links:</b> <a href="projects.html">Projects</a> <b>|</b> <a href="interests">Interests</a> <b>|</b> <a href="index.html">Home Page</a></p>
 				</div>
 				<div id="clear">
 				</div>
