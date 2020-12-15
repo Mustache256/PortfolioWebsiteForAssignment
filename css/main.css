@@ -163,6 +163,11 @@ input[type=submit]:hover {
 	margin: 0px;
 	padding: 0px;
 }
+#bodytext{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-align: left;
+}
 #td1{
 	border-top: 5px solid black; 
 	border-right: 5px solid black; 
