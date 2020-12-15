@@ -1,12 +1,13 @@
 <html>
   <head>
-		<link rel="stylesheet" href="css/main.css">
-		<script src="JavaScript/jsmain.js"></script>
-    <title>Portfolio Website Projects Page</title>
+		<link rel="stylesheet" href="css/main.css"> <!-- External css -->
+		<script src="javascript/jsmain.js"></script> <!-- External JavaScript -->
+    <title>Portfolio Website Contact Page</title>
   </head>
   
 	<body>
-    <div id="container">
+    <!-- Placing main content in container div to help with formatting of footer if absolute positioning is needed -->
+		<div id="container">
 		
 			<!-- Header Section -->
 			<div id="header">
@@ -39,7 +40,9 @@
 			<!-- Page content section -->
 			<div id="body" style="text-align: center;">
 			<!-- using 2 seperate divs to split the content within the main body of the page into 2 seperate sections on the left and right of the page that are in line with each other -->
+				<!-- Left hand side of the page -->
 				<div id="bodyBox1">
+					<!-- Contact form section -->
 					<h2>Contact Form:</h2>
 					<div id="contactForm">	
 						<form method="post" name="form1" id="form1" onSubmit="MM_validateForm('textfield','','R','textfield2','','R','textfield3','','RisEmail','textarea','','R');return document.MM_returnValue">
@@ -57,7 +60,9 @@
 					<p>Please use this contact form for any questions you may have.</p>
 					<p>Alternatively, you can contact me directly via any of the contact details listed on the right.</p>
 				</div>
+				<!-- Right hand side of the page -->
 				<div id="bodyBox2">
+					<!-- Contact information list section -->
 					<h2>List of contact details:</h2>
 					<h3>Postal Information:</h3>
 					<p>Address:</p>

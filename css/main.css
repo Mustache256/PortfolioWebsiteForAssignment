@@ -1,5 +1,6 @@
 * {box-sizing: border-box}
 
+/* Tags section */
 /* Style for the body on all pages */
 body{
 	background-color: #111476;
@@ -62,6 +63,8 @@ td{
 	color: white;
 	Margin: 0 auto;
 }
+
+/*Styling for contact form */
 input[type=text], textarea{
 	width: 100%;
 	padding: 1rem;
@@ -92,16 +95,20 @@ input[type=submit]:hover {
 	color:black;
 }
 
-/* ID section. Listed to represent the order in with the elements are places on the pages from top to bottom*/
+/* ID section. */
 #container{
 	min-height: 100%
 	position: relative;
 }
+
+/*Header style */
 #header{
 	padding: 10px;
 	background-color: black;
 	top: 0;
 }
+
+/* Navigation bar style */
 #menubar{
 	padding: 10px;
 	background-color: black;
@@ -137,6 +144,8 @@ input[type=submit]:hover {
 #hidden1{
 	display: none;
 }
+
+/* Main body content style */
 #body{
 	padding: 1rem;
 	padding-bottom: 3rem;
@@ -148,12 +157,6 @@ input[type=submit]:hover {
 	background-color: #111476;
 	margin: 0px;
 	padding: 0px;
-}
-#contactForm{
-	text-align: left;
-	border-radius: 5px;
-	background-color: black;
-	padding: 1rem;
 }
 #bodyBox2{
 	width: 50%;
@@ -168,20 +171,8 @@ input[type=submit]:hover {
 	color: white;
 	text-align: left;
 }
-#td1{
-	border-top: 5px solid black; 
-	border-right: 5px solid black; 
-	border-bottom: 5px solid black;
-	margin: 0px;
-	padding: 0px;
-}
-#td2{
-	border-top: 5px solid black; 
-	border-left: 5px solid black; 
-	border-bottom: 5px solid black;
-	margin: 0px;
-	padding: 0px;
-}
+
+/* Footer style */
 #footer{
 	bottom: 0;
 	width: 100%;
@@ -205,6 +196,29 @@ input[type=submit]:hover {
 	padding: 0px;
 }
 
+/* Styling for contact form */
+#contactForm{
+	text-align: left;
+	border-radius: 5px;
+	background-color: black;
+	padding: 1rem;
+}
+
+/* Styling for table */
+#td1{
+	border-top: 5px solid black; 
+	border-right: 5px solid black; 
+	border-bottom: 5px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+#td2{
+	border-top: 5px solid black; 
+	border-left: 5px solid black; 
+	border-bottom: 5px solid black;
+	margin: 0px;
+	padding: 0px;
+}
 
 /* Class Section */
 .menu{
@@ -263,7 +277,6 @@ input[type=submit]:hover {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 12px;
 	padding: 8px 12px;
-	position: absolute;
 	top: 0;
 }
 .dot {

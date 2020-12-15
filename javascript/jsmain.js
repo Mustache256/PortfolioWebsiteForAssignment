@@ -1,8 +1,9 @@
 var count = 0;
 
+//Checks to see if navigation bar is visible on the screen
 function check(){
 	var div = document.getElementById("navbar");
-	if(div.style.display === "none"){
+	if(div.style.display == "none"){
 		div.style.display = "block";
 	}
 	else{
@@ -10,6 +11,7 @@ function check(){
 	}
 }
 
+//Image rollovers for the navigation bar
 function MouseRollover1(HomeImage) {
   HomeImage.src = "images/homebuttonmouseover.png";
 }
@@ -42,6 +44,7 @@ function MouseOut4(ContactImage){
   ContactImage.src = "images/contactbutton.png";
 }
 
+//validation checks for the contact form, checking to see if all fields have been filed in with the correct information
 function MM_validateForm() {
   if (document.getElementById){
     var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
@@ -94,3 +97,61 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }  
+
+// JavaScript for the Canvas
+var playerImage;
+
+function load()
+{
+	// Allocate a new image and assign it to previous variable
+	playerImage = new Image();
+	// Set the src.
+	playerImage.src = "redsquare.png";
+}
+function main()
+{
+	// Retrieving canvas
+	var canvas = document.getElementById("canvas");
+	// Setting canvas size
+	canvas.width = 640;
+	canvas.height = 480;
+	load();
+	// Creates a 2D drawing
+	var ctx = canvas.getContext('2d');
+	// Calls the draw function
+	draw(ctx);
+	}
+var x = 10;
+var y = 10;
+function draw(ctx)
+{
+	// Set clear colour to gray and fetch width and height from canvas
+	ctx.fillStyle = 'gray';
+	ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+	// Set future fill colour to red
+	ctx.drawImage(playerImage, x, y);
+	// Ask the browser to call this function again as soon as it can
+	window.requestAnimationFrame(function(){draw(ctx);});
+	}
+function keydown(event)
+{
+	if(event.key == "ArrowLeft")
+	{
+		x = x - 5;
+	}
+	else if(event.key == "ArrowRight")
+	{
+		x = x + 5;
+	}
+	else if(event.key == "ArrowUp")
+	{
+		y = y - 5;
+	}
+	else if(event.key == "ArrowDown")
+	{
+		y = y + 5;
+	}
+}
+				
+window.onload = main;
+window.addEventListener("keydown", keydown);
