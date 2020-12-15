@@ -1,8 +1,8 @@
 <html>
   <head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/main.css">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/main.css" />
 		<script src="JavaScript/jsmain.js"></script>
     <title>Portfolio Website Projects Page</title>
   </head>
@@ -41,32 +41,59 @@
 
 			<!-- Page content section -->
 			<div id="body">
-				<div class="window">
-					<span id="slideMC"></span>
-					<span id="slideTF"></span>
-					<span id="slideHD"></span>
-					<span id="slideHK"></span>
-					<span id="slideHL"></span>
-					<span id="slideMH"></span>
-					<div class="imageContainer">
-						<img src="" class="slide">
-						<img src="" class="slide">
-						<img src="" class="slide">
-						<img src="" class="slide">
-						<img src="" class="slide">
-						<img src="" class="slide">
+				<div class="slideshowContainer">
+				
+					<div class="mySlides fade">
+						<div class="numbertext"> 1 / 6</div>
+						<img src="mcimage.png" style="width:100%">
+						<div class="text">Minecraft</div>
 					</div>
-					<div class="buttonContainer">
-						<a href="#slideMC" class="sliderButton">
-						<a href="#slideTF" class="sliderButton">
-						<a href="#slideHD" class="sliderButton">
-						<a href="#slideHK" class="sliderButton">
-						<a href="#slideHL" class="sliderButton">
-						<a href="#slideMH" class="sliderButton">
+					
+					<div class="mySlides fade">
+						<div class="numbertext"> 2 / 6</div>
+						<img src="tfimage.png" style="width:100%">
+						<div class="text">Team Fortress 2</div>
 					</div>
+					
+					<div class="mySlides fade">
+						<div class="numbertext"> 3 / 6</div>
+						<img src="hdimage.png" style="width:100%">
+						<div class="text">Hades</div>
+					</div>
+					
+					<div class="mySlides fade">
+						<div class="numbertext"> 4 / 6</div>
+						<img src="hkimage.png" style="width:100%">
+						<div class="text">Hollow Knight</div>
+					</div>
+					
+					<div class="mySlides fade">
+						<div class="numbertext"> 5 / 6</div>
+						<img src="hlimage.png" style="width:100%">
+						<div class="text">Half Life</div>
+					</div>
+					
+					<div class="mySlides fade">
+						<div class="numbertext"> 6 / 6</div>
+						<img src="mhimage.png" style="width:100%">
+						<div class="text">Monster Hunter</div>
+					</div>
+					
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+				
+				<div style="text-align: center;">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+					<span class="dot" onclick="currentSlide(6)"></span>
 				</div>
 			</div>
-		
+	
 			<!-- Footer Section -->
 			<div id="footer">
 				<p style="text-align: center">Copyright 2020© | Daniel Holmes</p>
@@ -76,7 +103,7 @@
 				</div>
 				<div id="footerBox2">
 					<!-- Additional navigation links for use in case of issue with interactive drop down navigation menu in header -->
-					<p><b>Navigation Links:</b> <a href="projects.html">Projects</a> <b>|</b> <a href="index.html">Home Page</a> <b>|</b> <a href="contact.html">Contact</a></p>
+					<p><b>Navigation Links:</b> <a href="projects.html">Projects</a> <b>|</b> <a href="contact.html">Contact</a> <b>|</b> <a href="index.html">Home Page</a></p>
 				</div>
 				<div id="clear">
 				</div>
