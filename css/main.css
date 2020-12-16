@@ -147,29 +147,39 @@ input[type=submit]:hover {
 
 /* Main body content style */
 #body{
+	border-bottom: 1rem;
+	margin-bottom: 2rem;
 	padding: 1rem;
 	padding-bottom: 3rem;
-}
-#bodyBox1{
-	width: 50%;
-	text-align: center;
-	float: left;
-	background-color: #111476;
-	margin: 0px;
-	padding: 0px;
-}
-#bodyBox2{
-	width: 50%;
-	text-align: center;
-	float: right;
-	background-color: #111476;
-	margin: 0px;
-	padding: 0px;
 }
 #bodytext{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: white;
 	text-align: left;
+}
+
+/* Styling for table */
+#td1{
+	border-top: 5px solid black; 
+	border-right: 5px solid black; 
+	border-bottom: 5px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+#td2{
+	border-top: 5px solid black; 
+	border-left: 5px solid black; 
+	border-bottom: 5px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+#thmain{
+	text-align: center;
+	width: 50%;
+}
+#tdmain{
+	text-align: center;
+	width: 50%;
 }
 
 /* Footer style */
@@ -202,22 +212,6 @@ input[type=submit]:hover {
 	border-radius: 5px;
 	background-color: black;
 	padding: 1rem;
-}
-
-/* Styling for table */
-#td1{
-	border-top: 5px solid black; 
-	border-right: 5px solid black; 
-	border-bottom: 5px solid black;
-	margin: 0px;
-	padding: 0px;
-}
-#td2{
-	border-top: 5px solid black; 
-	border-left: 5px solid black; 
-	border-bottom: 5px solid black;
-	margin: 0px;
-	padding: 0px;
 }
 
 /* Class Section */

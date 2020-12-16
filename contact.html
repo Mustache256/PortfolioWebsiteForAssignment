@@ -6,7 +6,6 @@
   </head>
   
 	<body>
-    <!-- Placing main content in container div to help with formatting of footer if absolute positioning is needed -->
 		<div id="container">
 		
 			<!-- Header Section -->
@@ -39,52 +38,54 @@
 
 			<!-- Page content section -->
 			<div id="body" style="text-align: center;">
-			<!-- using 2 seperate divs to split the content within the main body of the page into 2 seperate sections on the left and right of the page that are in line with each other -->
-				<!-- Left hand side of the page -->
-				<div id="bodyBox1">
-					<!-- Contact form section -->
-					<h2>Contact Form:</h2>
-					<div id="contactForm">	
-						<form method="post" name="form1" id="form1" onSubmit="MM_validateForm('textfield','','R','textfield2','','R','textfield3','','RisEmail','textarea','','R');return document.MM_returnValue">
-							<label for="Firstname">Firstname:</label>
-							<input type="text" name="Firstname" id="textfield">					
-							<label for="Surname">Surname:</label>
-							<input type="text" name="Surname" id="textfield2">		
-							<label for="E-Mail">E-Mail:</label>
-							<input type="text" name="E-Mail" id="textfield3">
-							<label for="Enquiry">Your Enquiry:</label>
-							<textarea name="Enquiry" cols="50" rows="10" id="textarea"></textarea>
-							<input type="submit" name="submit" id="submit" value="Submit">
-						</form>
-					</div>
-					<p>Please use this contact form for any questions you may have.</p>
-					<p>Alternatively, you can contact me directly via any of the contact details listed on the right.</p>
-				</div>
-				<!-- Right hand side of the page -->
-				<div id="bodyBox2">
-					<!-- Contact information list section -->
-					<h2>List of contact details:</h2>
-					<h3>Postal Information:</h3>
-					<p>Address:</p>
-					<p>49 Gillett Road</p>
-					<p>Poole</p>
-					<p>Dorset</p>
-					<p>Post Code:</p>
-					<p>BH12 5BF</p>
-					<h3>Contact Details:</h3>
-					<p>Main Email: daniel2561@hotmail.co.uk </p>
-					<p>Secondary Email: danholmes2561@gmail.com</p>
-					<p>Mobile Number: 07504883703 </p>
-					<p>GitHub Account: Mustache256 </p>
-					<div id="address">
-					</div>
-					<div id="contact">
-					</div>
-				</div>
+				<!-- Using a table for content formatting -->	
+				<table> 
+					<tr>
+						<th id="thmain">Contact Form:</th>
+						<th id="thmain">List of contact details:</th>
+					</tr>
+					<tr>
+						<td id="tdmain">
+							<!-- Contact form section -->
+							<div id="contactForm">	
+								<form method="post" name="form1" id="form1" onSubmit="MM_validateForm('textfield','','R','textfield2','','R','textfield3','','RisEmail','textarea','','R');return document.MM_returnValue"> <!-- links to javascript function for checking correct inputs -->
+									<label for="Firstname">Firstname:</label>
+									<input type="text" name="Firstname" id="textfield">					
+									<label for="Surname">Surname:</label>
+									<input type="text" name="Surname" id="textfield2">		
+									<label for="E-Mail">E-Mail:</label>
+									<input type="text" name="E-Mail" id="textfield3">
+									<label for="Enquiry">Your Enquiry:</label>
+									<textarea name="Enquiry" cols="50" rows="10" id="textarea"></textarea>
+									<input type="submit" name="submit" id="submit" value="Submit">
+								</form>
+							</div>
+							<p>Please use this contact form for any questions you may have.</p>
+							<p>Alternatively, you can contact me directly via any of the contact details listed on the right.</p>
+							<br>
+						</td>
+						<td id="tdmain">
+							<!-- Contact information list section -->
+							<h3>Postal Information:</h3>
+							<p>Address:</p>
+							<p>49 Gillett Road</p>
+							<p>Poole</p>
+							<p>Dorset</p>
+							<p>Post Code:</p>
+							<p>BH12 5BF</p>
+							<h3>Contact Details:</h3>
+							<p>Main Email: daniel2561@hotmail.co.uk </p>
+							<p>Secondary Email: danholmes2561@gmail.com</p>
+							<p>Mobile Number: 07504883703 </p>
+							<p>GitHub Account: Mustache256 </p>
+						</td>
+					</tr>
+				</table>
 			</div>
 		
 			<!-- Footer Section -->
-			<div id="footer" style="position:absolute; bottom:0;">
+			<footer>
+			<div id="footer">
 				<p style="text-align: center">Copyright 2020© | Daniel Holmes</p>
 	    <!-- Defining Footer Divs For Formatting, allowing for content to be both on the left and right of the footer whilst being in line with each other -->
 				<div id="footerBox1">
@@ -97,6 +98,7 @@
 				<div id="clear">
 				</div>
 			</div>
+			</footer>
 		</div>
   </body>
 </html>
