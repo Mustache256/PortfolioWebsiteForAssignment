@@ -1,0 +1,83 @@
+commit e5e147fb9dfae4dd2a8698f397ec63096ee17d0b
+Author: Your Name <you@example.com>
+Date:   Wed Dec 16 20:45:31 2020 +0000
+
+    Continued to write report
+
+commit fbffd00264bef540e57d2250862701143cb29425
+Author: Your Name <you@example.com>
+Date:   Wed Dec 16 16:09:35 2020 +0000
+
+    Finalised version of website wiht formatting changes, fixed slideshow and removed canvas. Began writing of report.
+
+commit 2801212f0a216acd2ced97c018a47105270ef913
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 21:37:54 2020 +0000
+
+    Completed website, only things that need attention are the canvas and slideshow
+
+commit fb8b7a96e6e0e6e025846e93489dcd676c2600cf
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 18:03:33 2020 +0000
+
+    Added content to the interests page
+
+commit 9daa18722a8e8789422e243db81a84469e2c944e
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 13:35:35 2020 +0000
+
+    Added slideshow to interests page
+
+commit 8187b6c40ced43ef449968b2b272f9225edc1139
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 01:50:14 2020 +0000
+
+    Completed Projects page, did adjustments to the footer formatting universally, added section to home page listing dev tools and programming languages I have used, changed formatting and look of contact form to be more appealing and better fit with the website, added groundwork for slideshow on interests page.
+
+commit 473b03ea049c1fa0b21c1f9d9a010478dbf65f7b
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 17:59:52 2020 +0000
+
+    Added general comments to all the pages as well as a table to the projects page with some information filled out within it
+
+commit a46ae1a84cc1a3a045e916e434681f3595913786
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 15:00:16 2020 +0000
+
+    Completed Home/index page with image and basic introductary information
+
+commit e2024bcce78eaa7d17af38b4f7b46b69c090e61b
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 13:18:07 2020 +0000
+
+    Completed contact page and adjusted formatting for other pages using divs
+
+commit 8c87edfe9ede5999c5df65007fb74fd7171cb0dd
+Author: Your Name <you@example.com>
+Date:   Tue Dec 8 12:32:07 2020 +0000
+
+    Added additional pages to the site, with links being correctly added to the navigation bar. Added a copyright trademark to the footer, as well as a placeholder contact form to the contact page.
+
+commit 84c4fb9ae9f72582a1d2481f534953b708ff45f3
+Author: Your Name <you@example.com>
+Date:   Mon Dec 7 18:08:17 2020 +0000
+
+    Adjusted header, footer and navigational bar, the latter 2 making us eof divs for formatting. Added extra navigation links to the footer, as well as added images for use within the navigation bar. Also added image rollover to the navigation bar to give user feedback when they mouse over the images within the nav bar, indicating to them that these images are links to other pages of the website
+
+commit 3ab39596ae3428f235a387959a81fd31359affc7
+Author: Your Name <you@example.com>
+Date:   Sat Dec 5 15:43:40 2020 +0000
+
+    Adjusted header and footer, added navigation bar and working drop down menu
+
+commit 9cb9d362aba8426e4126207f826033dfa689c1a0
+Author: Your Name <you@example.com>
+Date:   Sat Nov 21 14:55:36 2020 +0000
+
+    Added index page and main css file
+
+commit 13cdb9d1854e2df9aaa1160b76bdd31f2854834c
+Author: Mustache256 <71705907+Mustache256@users.noreply.github.com>
+Date:   Sat Nov 21 12:31:15 2020 +0000
+
+    Initial commit

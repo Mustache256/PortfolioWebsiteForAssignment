@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CollPrint</title>
+<link href = "WithertonForestCSS.css" rel="stylesheet" type="text/css">
+	<script language="javascript">
+	function calculate() {
+		var Kids = parseInt(document.getElementById("Children").options[document.getElementById("Children").selectedIndex].value);
+		var Adults = parseInt(document.getElementById("Adults").options[document.getElementById("Adults").selectedIndex].value);
+		var Elderly = parseInt(document.getElementById("Elderly").options[document.getElementById("Elderly").selectedIndex].value);
+		var Paintball = parseInt(document.getElementById("Paintball").options[document.getElementById("Paintball").selectedIndex].value);
+		var Grenade = parseInt(document.getElementById("Grenades").options[document.getElementById("Grenades").selectedIndex].value);
+		var Bike = parseInt(document.getElementById("Bikes").options[document.getElementById("Bikes").selectedIndex].value);
+		var Helmet = parseInt(document.getElementById("Helmets").options[document.getElementById("Helmets").selectedIndex].value);
+		var Total1 = Kids * 10
+		var Total2 = Adults * 15
+		var Total3 = Elderly * 12
+		var Total4 = Paintball * 5
+		var Total5 = Grenade * 4
+		var Total6 = Bike * 10
+		var Total7 = Helmet * 5
+		var TotalPrice = Total1 + Total2 + Total3 + Total4 + Total5 + Total6 + Total7
+		document.getElementById("price").innerHTML="The total price of the cake is: £ " + TotalPrice.toFixed(2)
+	}
+	</script>
+</head>
+
+<body>
+<div id="HeaderBox">
+	<img src="WithertonForestLogo.png">
+</div>
+	<div id="NavBar">
+		<ul>
+			<li><a href="Index.html">HOME</a></li>
+			<li><a href="Attractions.html">ATTRACTIONS</a></li>
+			<li><a href="Bookings.html">BOOKING</a></li>
+			<li><a href="Contact.html">ABOUT/CONTACT</a></li>
+		</ul>
+	</div>
+	<div id="ContentBox">
+				<form id="form1" name="form1" method="post">
+  <p>Booking Cost Calculator
+</p>
+  <p>
+    <label for="Children">No. of children (£10 per person):</label>
+    <select name="Children" required="required" id="Children">
+      <option value="0">0</option>
+		<option value="1">1</option>
+      	<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select>
+  </p>
+  <p>
+    <label for="Adults">No. of adults (over 18, £15 per person):</label>
+    <select name="Adults" id="Adults">
+      <option value="0">0</option>
+		<option value="1">1</option>
+      	<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select>
+  </p>
+	<p>
+    <label for="Elderly">No. of people over 70 (£12 per person):</label>
+    <select name="Elderly" id="Elderly">
+      <option value="0">0</option>
+		<option value="1">1</option>
+      	<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select>
+  </p>
+	<p>
+    <label for="Paintball">No. of Paintballs (£5 per 500):</label>
+    <select name="Paintball" required="required" id="Paintball">
+      <option value="0">0</option>
+		<option value="1">1</option>
+      	<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select>
+  </p>
+	<p>
+    <label for="Grenades">No. of Paintball Grenades (£4 per Grenade):</label>
+    <select name="Grenades" required="required" id="Grenades">
+      <option value="0">0</option>
+		<option value="1">1</option>
+      	<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select>
+  </p>
+	<p>
+    <label for="Bikes">No. of Bikes (£10 per Bike):</label>
+    <select name="Bikes" required="required" id="Bikes">
+      <option value="0">0</option>
+		<option value="1">1</option>
+      	<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select>
+  </p>
+	<p>
+    <label for="Helmets">No. of Helmets (£5 per Helmet):</label>
+    <select name="Helmets" required="required" id="Helmets">
+      <option value="0">0</option>
+		<option value="1">1</option>
+      	<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select>
+  </p>
+  <p>
+    <input type="button" name="button" id="button" value="Calculate price" onclick="calculate()">
+  </p>
+	<p id="price"></p>
+	<p>We also have pricing for activies at the Forest listed within the about page.</p>
+</form>
+	</div>
+	<div id="Footer">
+		<div id="FooterBox1"><pfl>E-Mail Address: WithertonForest@gmail.com<br>Telephone: 01785 698752 or 07584773685</pfl>
+		</div>
+		<div id="FooterBox2">
+			<pfr>Main Address: 96 Crown Street,<br>Stoke-On-Trent, United Kingdom<br>ST15 6YX</pfr>
+		</div>
+		<div id="clear"></div>
+	</div>
+</body>
+</html>

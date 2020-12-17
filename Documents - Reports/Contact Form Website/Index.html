@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Witherton Forest</title>
+<link href = "WithertonForestCSS.css" rel="stylesheet" type="text/css">
+<style>
+.slides_align{
+	max-height:400px;
+	margin:auto;
+	width:400px
+	}
+.button_align{
+	max-width:70px;
+	margin:auto;	
+	}
+</style>
+</head>
+
+<body>
+	<div id="HeaderBox">
+		<img src="WithertonForestLogo.png">
+	</div>
+	<div id="NavBar">
+		<ul>
+			<li><a href="Index.html">HOME</a></li>
+			<li><a href="Attractions.html">ATTRACTIONS</a></li>
+			<li><a href="Bookings.html">BOOKING</a></li>
+			<li><a href="Contact.html">ABOUT/CONTACT</a></li>
+		</ul>
+	</div>
+	<div id="ContentBox">
+		<div class="slides_align">
+		<img class="mySlides" src="Forest1.jpg">
+		<img class="mySlides" src="Forest2.jpg">
+		<img class="mySlides" src="Forest3.jpg">
+		</div>
+		<div class="button_align">
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+  			showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+  			var i;
+  			var x = document.getElementsByClassName("mySlides");
+  			if (n > x.length) {slideIndex = 1}
+  			if (n < 1) {slideIndex = x.length}
+  			for (i = 0; i < x.length; i++) {
+    		x[i].style.display = "none";  
+  			}
+  			x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+		<h1>Welcome to the Witherton Forest Website</h1>
+		<p>Here you will find all the information you could possibly need about the Forest,<br> including pricing and contact information. We are attempting to offer our Forest's activities to a wider range of<br> people and this website has been created to do just that. This is the home page and is designed to<br> give you a brief overview of Witherton Forest as well as describe what information you will find on this website.<br><br>We are a small nature reserve that can provide a large array of activies for people of all ages,<br> form bike hire, paintball, childrens zoo etc. There are activities for every member of the family<br> so that everyone can enjoy a great day out.<br><br>There are pages on this site for calculating booking prices, viewing images and information<br>about the forest and the avialable activities as well as a page with our contact details, addition information, and<br>address, on which you can fill out a contact form with any questions or queries you have, or<br>you can contact us directly via E-Mail, Telephone or Post.</p>
+	</div>
+	<div id="Footer">
+		<div id="FooterBox1"><pfl>E-Mail Address: WithertonForest@gmail.com<br>Telephone: 01785 698752 or 07584773685</pfl>
+		</div>
+		<div id="FooterBox2">
+			<pfr>Main Address: 96 Crown Street,<br>Stoke-On-Trent, United Kingdom<br>ST15 6YX</pfr>
+		</div>
+		<div id="clear"></div>
+	</div>
+</body>
+</html>

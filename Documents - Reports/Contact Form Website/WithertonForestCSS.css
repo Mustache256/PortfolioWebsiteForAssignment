@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+#HeaderBox{
+	width:1006px;
+	height:130px;
+	margin:0 auto;
+	border:solid 1px #9DEA4F; 
+}
+#NavBar{
+	width:1006px;
+	height:50px;
+	margin:0 auto;
+	background-color:#b0ee72;
+	border:solid 1px #9DEA4F;
+	
+}
+#ContentBox{
+	width:1006px;
+	height:auto;
+	margin:0 auto;
+	border:solid 1px #9DEA4F;
+	text-align:center;
+	background-color:#cef4a7;
+}
+#Footer{
+	width:1008px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#FooterBox1{
+	width:500px;
+	height:100px;
+	padding-left:2px;
+	float:left;
+	border-bottom-left-radius:25px;
+	background-color:#b0ee72;
+	border:solid 1px #9DEA4F;
+}
+#FooterBox2{
+	width:500px;
+	height:100px;
+	padding-right:2px;
+	float:left;
+	border-bottom-right-radius:25px;
+	background-color:#b0ee72;
+	border:solid 1px #9DEA4F;
+	text-align:right;
+}
+li{
+	display:inline;
+	height:30px;
+	width:150px;
+	float:left;
+	list-style-type:none;
+	Margin-left:60px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:20px;
+}
+p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+}
+pfl{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+}
+pfr{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+}
+#clear{
+	clear:both;
+}
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+table, th{
+	border: 1px solid #9DEA4F;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	Margin: 0 auto;
+	
+}
+td{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+}
+a:link {
+	color: #4E7527;
+}
+a:visited {
+	color: #4E7527;
+}
+a:hover {
+	color: #4E7527;
+}
+a:active {
+	color: #4E7527;
+}
+
